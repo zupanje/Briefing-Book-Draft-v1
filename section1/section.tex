@@ -1,0 +1,96 @@
+% don't remove the folling lines, and edit the defintion of \main if needed
+\documentclass[../report.tex]{subfiles}
+\providecommand{\main}{..}
+\IfEq{\jobname}{\currfilebase}{\AtEndDocument{\biblio}}{}
+% until here
+
+%To have the commments written on the PDF: keep this macro
+\newcommand{\commentsinout}[1]{#1}
+%To have the commments hidden in the PDF: keep this macro
+%\newcommand{\commentsinout}[1]{}
+
+% this is a macro so you can make comments. See example below.
+\newcommand{\KE}[1]{\commentsinout{{\bf{\color{brown} [KE: #1]}}}} % Comments by K. Ellis
+\newcommand{\BH}[1]{\commentsinout{{\bf{\color{cyan} [BH: #1]}}}} % Comments by B. Heinemann
+\newcommand{\FM}[1]{\commentsinout{{\bf{\color{orange} [FM: #1]}}}} % Comments by F. Maltoni
+\newcommand{\AN}[1]{\commentsinout{{\bf{\color{teal} [AN: #1]}}}} % Comments by A. Nisati
+
+\begin{document}
+
+\chapter{Executive summary}
+\pagenumbering{arabic}
+Start of the text.
+
+%\chapter{Theoretical overview}
+%\newpage
+%\subfile{\main/testsection/section}
+%\newpage
+%\subfile{\main/ewksection/section}
+
+%\chapter{Strong Interactions}
+%\section{State-of-the-art}
+%\section{Hadronic structure}
+%\section{Hot and dense QCD}
+%\section{Precision QCD}
+%\section{QCD and other disciplines}
+%\section{Overview for QCD}
+
+\chapter{Flavour Physics}
+\section{Introduction/Theory of Flavour}
+\section{Light sector: spectrum below GeV (short-, mid- and long-term)}
+\section{Heavy sector (short-, mid- and long-term)}
+\section{Flavour and dark sectors (short-, mid- and long-term)}
+\section{The CKM matrix elements: prospects}
+\section{Conclusions}
+
+\chapter{Neutrino Physics}
+\section{Theoretical introduction}
+\section{Present knowledge of neutrino mixing parameters}
+\section{Measurements of neutrino oscillation parameters}
+\section{Determination of neutrino mass and nature}
+\section{Search for new neutrino states}
+
+\chapter{Cosmic messengers}
+\section{Ultra High Energy charged particles}
+\section{Ultra High Energy neutrinos}
+\section{Gravitational waves}
+\section{Multi-messenger astroparticle physics}
+\section{Synergies with HEP}
+
+\chapter{Beyond the Standard Model}
+\section{Introduction}
+\section{Electroweak Symmetry Breaking and New Resonances}
+\section{Supersymmetry}
+\section{Extended Higgs Sectors and High-Energy Flavour Dynamics}
+\section{Dark Matter}
+\section{Feebly Interacting Particles}
+\section{Summary and Conclusions}
+
+\chapter{Dark Matter and Dark Sector}
+\section{Introduction}
+\section{Dark matter and Dark sectors at colliders}
+\section{Dark matter and Dark sectors at beam dump and fixed target experiments}
+\section{Axions and ALPs}
+\section{Conclusion}
+
+\chapter{Accelerator Science and Technology}
+\section{Accelerator technology, role of other regions, strategies for after LHC, or after Higgs factory}
+\section{Present state of accelerator technology for HEP}
+\section{Technologies for electroweak sector}
+\section{Path towards highest energies}
+\section{Muon Colliders}
+\section{Plasma acceleration}
+\section{Accelerators Beyond Colliders}
+\section{Energy management}
+\section{Complementarities and synergies with other fields}
+
+\chapter{Instrumentation and Computing}
+\section{Particle physics instrumentation}
+\section{Computing and software for particle physics}
+\section{Interplay between instrumentation and computing}
+\section{Developing and preserving knowledge and expertise}
+\section{Summary of key points}
+
+\chapter{Synergies}
+
+\end{document}

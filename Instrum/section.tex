@@ -1,0 +1,36 @@
+% don't remove the folling lines, and edit the defintion of \main if needed
+\documentclass[../report.tex]{subfiles}
+\providecommand{\main}{..}
+\IfEq{\jobname}{\currfilebase}{\AtEndDocument{\biblio}}{}
+% until here
+
+%To have the commments written on the PDF: keep this macro
+\newcommand{\commentsinout}[1]{#1}
+%To have the commments hidden in the PDF: keep this macro
+%\newcommand{\commentsinout}[1]{}
+
+% this is a macro so you can make comments. See example below.
+\newcommand{\BV}[1]{\commentsinout{{\bf{\color{brown} [BV: #1]}}}} % Comments by Brigitte Vachon
+\newcommand{\XL}[1]{\commentsinout{{\bf{\color{cyan} [XL: #1]}}}} % Comments by Xinchou Lou
+\newcommand{\EL}[1]{\commentsinout{{\bf{\color{orange} [EL: #1]}}}} % Comments by Emilia Leogrande
+\newcommand{\RJ}[1]{\commentsinout{{\bf{\color{teal} [RJ: #1]}}}} % Comments by Roger Jones
+
+\begin{document}
+
+\chapter{Instrumentation and Computing}
+\label{chap:inst}
+
+Developments in the area of instrumentation and computing enable tool-driven revolutions that can open the door to future discoveries.  This is only made possible if appropriate support for innovation exists.  The type of support required includes not only financial support but also access to shared infrastructures, the existence of effective organizational networks, appropriate support and recognition of the workforce engaged in instrumentation and computing R\&D activities, and  structures through which the community can build a relationship with industry.  Furthermore, while university-based research teams do engage in R\&D activities~[ID68], strong support from national labs and larger institutions has been shown to be essential.
+ 
+ The success of the LHC program and the ongoing development activities in preparation for HL-LHC upgrades demonstrate the ability of the particle physics community to take on large and long term projects. The challenges of future experiments however often scale with the complexity of the physics goals.  Therefore, it is as important as ever that the particle physics community maintains and further strengthens a research and development ecosystem that stimulates and supports innovation in both instrumentation and computing.  
+
+%\subfile{\main/Instrum/sub1/subsection1}
+\subfile{\main/Instrum/sub2/subsection2}
+\subfile{\main/Instrum/sub3/subsection3}
+\subfile{\main/Instrum/sub4/subsection4}
+\subfile{\main/Instrum/sub5/subsection5}
+\subfile{\main/Instrum/sub6/subsection6}
+
+
+\end{document}
+

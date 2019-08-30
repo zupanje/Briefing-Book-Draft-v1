@@ -1,0 +1,132 @@
+\documentclass[12pt,twoside,a4paper]{cernrep} 
+\usepackage{rep_common}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\usepackage[pagewise,displaymath]{lineno}
+\usepackage{lscape}
+\usepackage{enumitem}
+\usepackage{rep_common}
+\usepackage{makecell,multirow}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{hhline}
+\usepackage{mathtools}
+\usepackage{mathptmx}
+%\usepackage[detect-all]{siunitx}
+\pagestyle{plain}
+% --
+% -- The bibliography file paths for the main volume and all parts
+% --
+%\def\bibfiles{\main/bib/chapter,\main/ewksection/bib/section,\main/Strong-Interaction/bib/section}
+\def\bibfiles{\main/bib/chapter,\main/ewksection/bib/section,\main/Strong-Interaction/bib/section,\main/Flavour/bib/section,\main/Neutrino/bib/section,\main/Cosmic/bib/section,\main/BSM/EWSB/bib/section,\main/BSM/SUSY/bib/section,\main/BSM/ExtendedScalars/bib/section,\main/BSM/DM/bib/section,\main/BSM/FIPs/bib/section,\main/Darkmatter/bib/maindm,\main/Darkmatter/section1/bib/section,\main/Darkmatter/section2/bib/section,\main/Darkmatter/section3/bib/section,\main/Darkmatter/section4/bib/section,\main/Accelerator/bib/section,\main/Instrum/bib/section,\main/section1/bib/section}
+%\def\bibfiles{\main/Strong-Interaction/bib/section}
+%\def\bibfiles{\main/bib/chapter,\main/section1/bib/section,\main/section2/bib/section,\main/ewksection/bib/section,\main/Strong-Interaction/bib/section}
+% --
+%\providecommand{\biblio}{\nocite{article-minimal}\bibliographystyle{report}\clearpage\bibliography{\bibfiles}}  % *Modification: added `\main/` to specify relative file location.
+\def\invfb   {\ensuremath{\mbox{\,fb}^{-1}}\xspace}
+\def\upgradetwo {\mbox{Upgrade~II}\xspace}
+
+\newcommand{\FCChh}{FCC-hh\xspace}
+\newcommand{\FCCee}{FCC-ee\xspace}
+\newcommand{\FCChhLowE}{FCC-hh, low energy\xspace}
+\newcommand{\FCCeh}{FCC-eh\xspace}
+\newcommand{\CLIC}{CLIC\xspace}
+\newcommand{\CEPC}{CEPC\xspace}
+\newcommand{\ILC}{ILC\xspace}
+\newcommand{\CLICThreeHundredEighty}{CLIC$_{380}$\xspace}
+\newcommand{\CLICThreeThousand}{CLIC$_{3000}$\xspace}
+\newcommand{\ILCTwoHundredFifty}{ILC$_{250}$\xspace}
+\newcommand{\ILCFiveHundred}{ILC$_{500}$\xspace}
+\newcommand{\ILCGigaZ}{ILC$_{91}$\xspace}
+\newcommand{\HLLHC}{HL-LHC\xspace}
+\newcommand{\HELHC}{HE-LHC\xspace}
+\newcommand{\LHeC}{LHeC\xspace}
+\newcommand{\CLICfifteen}{CLIC$_{1500}$\xspace}
+\newcommand{\ILCOneThousand}{ILC$_{1000}$\xspace}
+\newcommand{\CLICGigaZ}{CLIC$_{91}$\xspace}
+\newcommand{\FCC}{FCC\xspace}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{S}{>{\hsize=.5\hsize}Y}
+\newcolumntype{M}{>{\hsize=.55\hsize}Y}
+\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column
+
+\begin{document}
+\newcommand{\main}{.}
+\def\biblio{}
+\pagenumbering{roman}
+\begin{flushright}
+CERN-ESU-xxx DRAFT v1\\
+28 August 2019
+\vspace*{6mm}
+\end{flushright}
+\title{
+  \huge \centerline{Physics Briefing Book}}
+\input{authors}
+\maketitle
+%\begin{abstract}
+%This is an abstract. What a beautiful physics!
+%\end{abstract}
+
+% -- Set the level of the TOC: 2 means including subsection, 1 means
+% including section 
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+% -- List of sections
+%\subfile{\main/section1/section}
+%\newpage
+\chapter{Executive summary}
+\label{chap:summ}
+In preparation, to be added for the next draft.  Will include discussion of the ESU process, the outcome of the last update, the current physics landscape, the eight themes, and a section on Synergies. 
+%\newpage
+\subfile{\main/Theory/section}
+%\newpage
+\subfile{\main/ewksection/section}
+%\newpage
+\subfile{\main/Strong-Interaction/section}
+%\newpage
+\subfile{\main/Flavour/section}
+%\newpage
+\chapter{Neutrino Physics} 
+\label{chap:neut}
+\subfile{\main/Neutrino/section}
+%\newpage
+\chapter{Cosmic Messengers} 
+\label{chap:cosm}
+\subfile{\main/Cosmic/section}
+%\newpage
+\chapter{Beyond the Standard Model} 
+\label{chap:bsm}
+\linenumbers
+\subfile{\main/BSM/Introduction/section}
+\subfile{\main/BSM/EWSB/section}
+\subfile{\main/BSM/SUSY/section}
+\subfile{\main/BSM/ExtendedScalars/section}
+\subfile{\main/BSM/DM/section}
+\subfile{\main/BSM/FIPs/section}
+\subfile{\main/BSM/Conclusion/section}
+%\newpage
+\subfile{\main/Darkmatter/report}
+\subfile{\main/Accelerator/section}
+\subfile{\main/Instrum/section}
+\addcontentsline{toc}{chapter}{Appendices}
+\subfile{\main/section2/section}
+\newpage
+
+% -- Add bibliography to table of contents
+\addcontentsline{toc}{chapter}{References}
+% dummy reference to avoid that bibtex fails
+% -- Add volume bibliography and part specific bibliographies
+\bibliographystyle{report}
+\bibliography{\bibfiles}
+
+\end{document}

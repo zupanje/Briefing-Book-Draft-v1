@@ -1,0 +1,147 @@
+
+@article{deBlas:2019rxi,
+      author         = "De Blas, J. and others",
+      title          = "{Higgs Boson Studies at Future Particle Colliders}",
+      year           = "2019",
+      eprint         = "1905.03764",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1905.03764;%%"
+}
+
+@article{LHCHiggsCrossSectionWorkingGroup:2012nn,
+      author         = "David, A. and Denner, A. and Duehrssen, M. and Grazzini,
+                        M. and Grojean, C. and Passarino, G. and Schumacher, M.
+                        and Spira, M. and Weiglein, G. and Zanetti, M.",
+      title          = "{LHC HXSWG interim recommendations to explore the
+                        coupling structure of a Higgs-like particle}",
+      collaboration  = "LHC Higgs Cross Section Working Group",
+      year           = "2012",
+      eprint         = "1209.0040",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2012-284, LHCHXSWG-2012-001",
+      SLACcitation   = "%%CITATION = ARXIV:1209.0040;%%"
+}
+
+@unpublished{LHCHXSWG33,
+      author  = "{LHC Higgs Cross Section Working Group}",
+      title          = "Handbook of {LHC Higgs} Cross Sections: 3.  {Higgs} Properties",
+      year           = "2013",
+      eprint         = "1307.1347",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-2013-004",
+      type           = "{CERN Report}",
+      SLACcitation   = "%%CITATION = ARXIV:1307.1347;%%",
+}
+
+@article{Cepeda:2019klc,
+      author         = "Cepeda, M. and others",
+      title          = "{Higgs Physics at the HL-LHC and HE-LHC}",
+      collaboration  = "Physics of the HL-LHC Working Group",
+      year           = "2019",
+      eprint         = "1902.00134",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-LPCC-2018-04",
+      SLACcitation   = "%%CITATION = ARXIV:1902.00134;%%"
+}
+
+@article{McCullough:2013rea,
+      author         = "McCullough, Matthew",
+      title          = "{An Indirect Model-Dependent Probe of the Higgs
+                        Self-Coupling}",
+      journal        = "Phys. Rev.",
+      volume         = "D90",
+      year           = "2014",
+      number         = "1",
+      pages          = "015001",
+      doi            = "10.1103/PhysRevD.90.015001, 10.1103/PhysRevD.92.039903",
+      note           = "[Erratum: Phys. Rev.D92,no.3,039903(2015)]",
+      eprint         = "1312.3322",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "MIT-CTP-4521",
+      SLACcitation   = "%%CITATION = ARXIV:1312.3322;%%"
+}
+
+@article{Degrassi:2016wml,
+      author         = "Degrassi, Giuseppe and Giardino, Pier Paolo and Maltoni,
+                        Fabio and Pagani, Davide",
+      title          = "{Probing the Higgs self coupling via single Higgs
+                        production at the LHC}",
+      journal        = "JHEP",
+      volume         = "12",
+      year           = "2016",
+      pages          = "080",
+      doi            = "10.1007/JHEP12(2016)080",
+      eprint         = "1607.04251",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CP3-16-38, RM3-TH-16-8",
+      SLACcitation   = "%%CITATION = ARXIV:1607.04251;%%"
+}
+
+@article{Bizon:2016wgr,
+      author         = "Bizon, Wojciech and Gorbahn, Martin and Haisch, Ulrich
+                        and Zanderighi, Giulia",
+      title          = "{Constraints on the trilinear Higgs coupling from vector
+                        boson fusion and associated Higgs production at the LHC}",
+      journal        = "JHEP",
+      volume         = "07",
+      year           = "2017",
+      pages          = "083",
+      doi            = "10.1007/JHEP07(2017)083",
+      eprint         = "1610.05771",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-TH-2016-215, LTH-1104, OUTP-16-23P",
+      SLACcitation   = "%%CITATION = ARXIV:1610.05771;%%"
+}
+
+@article{vanderBij:1985ww,
+      author         = "van der Bij, J. J.",
+      title          = "{Does Low-energy Physics Depend on the Potential of a
+                        Heavy Higgs Particle?}",
+      journal        = "Nucl. Phys.",
+      volume         = "B267",
+      year           = "1986",
+      pages          = "557-565",
+      doi            = "10.1016/0550-3213(86)90131-8",
+      reportNumber   = "NIKHEF-H/85-1",
+      SLACcitation   = "%%CITATION = NUPHA,B267,557;%%"
+}
+
+@article{Degrassi:2017ucl,
+      author         = "Degrassi, Giuseppe and Fedele, Marco and Giardino, Pier
+                        Paolo",
+      title          = "{Constraints on the trilinear Higgs self coupling from
+                        precision observables}",
+      journal        = "JHEP",
+      volume         = "04",
+      year           = "2017",
+      pages          = "155",
+      doi            = "10.1007/JHEP04(2017)155",
+      eprint         = "1702.01737",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1702.01737;%%"
+}
+@article{Kribs:2017znd,
+      author         = "Kribs, Graham D. and Maier, Andreas and Rzehak, Heidi and
+                        Spannowsky, Michael and Waite, Philip",
+      title          = "{Electroweak oblique parameters as a probe of the
+                        trilinear Higgs boson self-interaction}",
+      journal        = "Phys. Rev.",
+      volume         = "D95",
+      year           = "2017",
+      number         = "9",
+      pages          = "093004",
+      doi            = "10.1103/PhysRevD.95.093004",
+      eprint         = "1702.07678",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IPPP-17-15",
+      SLACcitation   = "%%CITATION = ARXIV:1702.07678;%%"
+}

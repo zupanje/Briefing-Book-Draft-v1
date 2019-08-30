@@ -1,0 +1,83 @@
+\documentclass[12pt,twoside,a4paper]{cernrep} 
+\usepackage{rep_common}
+\pagestyle{plain}
+% --
+% -- The bibliography file paths for the main volume and all parts
+% --
+\def\bibfiles{\main/bib/chapter,\main/section1/bib/section,\main/section2/bib/section}
+% --
+\providecommand{\biblio}{\nocite{article-minimal}\bibliographystyle{report}\clearpage\bibliography{\bibfiles}}  % *Modification: added `\main/` to specify relative file location.
+
+%Acronyms taken from FIP section
+%[HL-LHC~\cite{Curtin:2014cca}, CEPC~\cite{CEPCStudyGroup:2018ghi}, FCC-ee~\cite{Karliner:2015tga}, FCC-hh~\cite{Curtin:2014cca}, ILC [Peskin]
+
+\newcommand{\textunderscript}[1]{$_{\text{#1}}$}
+
+%Another option...
+%\newcommand{\FCChh}{FCC\textunderscript{hh}\xspace}
+%\newcommand{\FCCee}{FCC\textunderscript{ee}\xspace}
+%\newcommand{\FCChhLowE}{FCC\textunderscript{hh}, low energy\xspace}
+%\newcommand{\FCCeh}{FCC\textunderscript{eh}\xspace}
+
+\newcommand{\FCChh}{FCC-hh\xspace}
+\newcommand{\FCCee}{FCC-ee\xspace}
+\newcommand{\FCChhLowE}{FCC-hh, low energy\xspace}
+\newcommand{\FCCeh}{FCC-eh\xspace}
+\newcommand{\CLIC}{CLIC\xspace}
+\newcommand{\CEPC}{CEPC\xspace}
+\newcommand{\ILC}{ILC\xspace}
+\newcommand{\CLICThreeHundredEighty}{CLIC\textunderscript{380}\xspace}
+\newcommand{\CLICThreeThousand}{CLIC\textunderscript{3000}\xspace}
+\newcommand{\ILCTwoHundredFifty}{ILC\textunderscript{250}\xspace}
+\newcommand{\ILCFiveHundred}{ILC\textunderscript{500}\xspace}
+\newcommand{\HLLHC}{HL-LHC\xspace}
+\newcommand{\HELHC}{HE-LHC\xspace}
+
+\begin{document}
+\newcommand{\main}{.}
+\def\biblio{}
+
+\title{
+  Physics Briefing Book \\ 
+  {\small for the Update of the European Strategy for Particle Physics 2019}
+  }
+\input{authors}
+
+\maketitle
+
+\begin{abstract}
+This is the abstract. So many ideas for going Beyond the SM...
+\end{abstract}
+
+% -- Set the level of the TOC: 2 means including subsection, 1 means
+% including section 
+\setcounter{tocdepth}{2}
+\tableofcontents
+\newpage
+
+% -- List of sections
+\subfile{\main/section1-Introduction/section}
+%\newpage
+%\subfile{\main/section2/section}
+%\newpage
+\subfile{\main/section-EWSB/section}
+%\newpage
+\subfile{\main/section-SUSY/section}
+%\newpage
+\subfile{\main/section-ExtendedScalars/section}
+%\newpage
+\subfile{\main/section-DM/section}
+%\newpage
+\subfile{\main/section-FIPs/section}
+%\newpage
+\subfile{\main/section-Conclusion/section}
+
+% -- Add bibliography to table of contents
+%\addcontentsline{toc}{chapter}{References}
+
+% dummy reference to avoid that bibtex fails
+% -- Add volume bibliography and part specific bibliographies
+\bibliographystyle{report}
+%\bibliography{\bibfiles}
+\bibliography{\main/section-EWSB/bib/section.bib,\main/section-SUSY/bib/section.bib,\main/section-ExtendedScalars/bib/section.bib,\main/section-DM/bib/section.bib,\main/section-FIPs/bib/section.bib}
+\end{document}

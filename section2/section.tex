@@ -1,0 +1,451 @@
+% don't remove the folling lines, and edit the defintion of \main if needed
+%\documentclass[../report.tex]{subfiles}
+%\providecommand{\main}{..}
+%\IfEq{\jobname}{\currfilebase}{\AtEndDocument{\biblio}}{}
+% until here
+
+\begin{document}
+% this is the extra information to be used for the general sections.
+%\chapter*{Appendices}
+\appendix
+\section{Glossary}
+ \begin{tabular}{ll}
+AD      &   Antimatter Decelerator, facility at CERN \\
+ALP 	&	Axion-like Particle \\
+APPEC   &   Astro Particle Physics European Consortium \\
+BDF     &   Beam Dump Facility, proposed at the CERN SPS \\
+BSM     &   Beyond the SM \\
+CC      &   Circular Collider \\
+CEPC    &   Circular Electron Positron Collider, proposed $e^+e^-$ collider (sited in China) \\
+CH      &   Composite Higgs \\
+CKM 	& 	Cabibbo-Kobayashi-Maskawa, the quark mixing matrix\\
+CL      &   Confidence Level \\
+CLIC    &   Compact Linear Collider, proposed $e^+e^-$ collider (sited at CERN) \\
+CMOS    &   Technique for fabricating integrated circuits in silicon \\
+CP      &   Combination of discreet symmetries: Charge-conjugation (C) and Parity (P) \\
+CPV     &   CP Violation \\
+CR      &   Cosmic Ray \\
+DIS     &   Deep Inelastic Scattering \\
+DM		&	Dark Matter \\
+DS      &   Dark Sector \\
+ECFA    &   European Committee for Future Accelerators \\
+EDM	    & 	Electric Dipole Moment \\
+EIC     &   Electron-ion Collider \\
+ERL     &   Energy Recovery Linac \\
+ESPPU   &   European Strategy for Particle Physics Update\\
+EW		&	Electroweak \\
+EWPO    &   Electroweak Precision Observables \\
+EWSB    &   Electroweak Symmetry Breaking \\
+FCC     &   Future Circular Collider, proposed 100-km scale collider (sited at CERN) \\
+FCC-ee  &   Version of FCC with $e^+e^-$ collisions \\
+FCC-eh  &   Version of FCC with electron-hadron collisions \\
+FCC-hh  &   Version of FCC with hadron collisions (proton or heavy-ion) \\
+FCNC	&	Flavour Changing Neutral Current \\
+FEL     &   Free Electron Laser, light source \\
+FIP     &   Feebly Interacting Particle \\
+GIM		& 	Glashow-Iliopoulos-Maiani, mechanism suppressing some decays\\
+GPD     &   Generalised Parton Distribution (or General Purpose Detector, depending on context) \\
+HE-LHC  &   High Energy LHC, proposed collider with $\sim$\,double LHC energy in same tunnel \\
+HEP     &   High Energy Physics \\
+HL-LHC  &   High Luminosity LHC, approved upgrade of the LHC to provide higher luminosity \\
+HLT     &   High Level Trigger \\
+HNL     &   Heavy Neutral Lepton \\
+HPC     &   High Performance Computing \\
+HTS     &   High Temperature Superconductor \\
+HV      &   High Voltage \\
+ID      &   Indirect Detection (or Identification, depending on context) \\
+\end{tabular}
+\newpage
+\begin{tabular}{ll}
+ILC     &   International Linear Collider, proposed $e^+e^-$ collider (sited in Japan) \\
+IP      &   Interaction Point \\
+IR      &   Infrared, i.e.\ low energy limit \\
+KEKB    &   B factory $e^+e^-$ collider in Japan \\
+LC      &   Linear Collider \\
+LDM     &   Light Dark Matter \\
+LEP     &   $Z$ factory $e^+e^-$ collider at CERN, used same tunnel now occupied by LHC\\
+LFUV	&	Lepton Flavour Universality Violation \\
+LFV		& 	Lepton Flavour Violation \\
+LHC     &   Large Hadron Collider, hadron collider at CERN \\
+LHeC    &   Proposed electron-hadron collider using hadrons from the LHC plus an ERL \\
+LLP     &   Long-lived Particle \\
+LNV		& 	Lepton Number Violation \\
+LQCD    &   Lattice QCD \\
+LSP     &   Lightest Supersymmetric Particle \\
+MFV	    &	Minimal Flavour Violation \\
+MSSM    &   Minimal Supersymmetric Model \\
+NLL     &   Next to Leadling Logarithm \\
+NLO     &   Next to Leading Order \\
+NP		&	New Physics \\
+PBC     &   Physics Beyond Colliders, a study \\
+PDF     &   Parton Distribution Function \\
+POT     &   Protons On Target \\
+pQCD    &   Perturbative QCD \\
+QCD	    & 	Quantum Chromodynamics, theory of the strong interaction \\
+QED     &   Quantum Electrodynamics, theory of the electromagnetic interaction \\
+QFT     &   Quantum Field Theory \\
+QGP     &   Quark Gluon Plasma \\
+RCS     &   Rapid-cycling Synchrotron \\
+RF      &   Radio Frequency \\
+SC      &   Superconducting \\
+SCT		& 	Super Charm Tau (also known as Tau-Charm factory), proposed $e^+e^-$ collider \\
+SD      &   Shutdown \\
+SKA     &   Square Kilometer Array, radio telescope array \\
+SLC     &   Linear Collider previously operating at SLAC \\
+SPS     &   Super Proton Synchrotron, accelerator at CERN \\
+SM		& 	Standard Model (of particle physics) \\
+SM-EFT	&	Standard Model Effective Field Theory \\
+SPPC    &   Proposed hadron collider to follow the CEPC using the same tunnel \\
+SUSY    &   Supersymmetry, proposed model of NP \\
+TDAQ    &   Trigger and Data Aquisition \\
+TDR     &   Technical Design Report \\
+TPC     &   Time Projection Chamber (or Total Project Cost, depending on context) \\
+UHE     &   Ultra High Energy \\
+UT		&	Unitarity Triangle, relationship between quark mixing matrix elements \\
+WIMP    &   Weakly Interacting Massive Particle, a candidate for DM \\
+WLCG    &   Worldwide LHC Computing Grid \\
+\end{tabular}
+
+\section{Open Symposium scientific programme}
+The full agenda and presentations of the Open Symposium in Granada (13-16 May 2019) are available from the meeting  \href{https://cafpe.ugr.es/eppsu2019/}{website}. The presentations making up the scientific programme are listed here. There were also many discussion sessions. The symposium ended with summaries of the parallel sessions, presented by the Conveners.
+\vspace*{3mm}
+
+\begin{flushleft}
+\begin{tabular}{lr}
+\bf Title & \bf Presented by \\ \hline 
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Opening plenary} \\
+\it Goals of the Symposium & Halina Abramowicz \\
+\it Implementation of the 2013 European Strategy Update & Fabiola Gianotti \\
+\it Outstanding questions in Particle Physics & Pilar Hernandez\\
+\it State of the art and challenges in accelerator technology  & Akira Yamamoto \\
+\it Future -- path to very high energies & Vladimir Shiltsev \\
+\it Technological challenges of particle physics experiments & Francesco Forti \\
+\it Computing challenges of the future & Simone Campana \\ \hline 
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Electroweak Physics} \\
+\vspace*{-3mm} & \\
+\it Prospects for Higgs and EW measurements at HL-LHC & Patrizia Azzi \\
+\it QCD uncertainties on Higgs and EWK measurables & Fabrizio Caola \\
+\it Theory perspective on direct \& indirect searches for new physics & Riccardo Rattazzi \\
+\it Overview and technical challenges of proposed Higgs factories & Daniel Schulte \\
+\it Capability of future machines for precision Higgs physics & Maria Cepeda \\
+\vspace*{-3mm} & \\
+\it Electroweak Precision Measurements at future experiments & Mark Lancaster \\
+\it Precision EW calculations (Giga-$Z$, $WW$, Higgs BRs, etc.) & Stefan Dittmaier \\
+\it The Higgs potential and its cosmological histories & Geraldine Servant \\
+\it Path towards measuring the Higgs potential & Elisabeth Petit \\
+\it Interpretation of Higgs and EWK data in EFT framework & Jorge de Blas \\ \hline 
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Strong Interactions} \\
+\vspace*{-3mm} & \\
+\it Scientific aspirations of the community in strong interactions & Thomas Gehrmann \\
+\it Experimental QCD physics at future $pp$ and $e^+e^-$ colliders & David d'Enterria \\
+\it Theoretical path for QCD physics & Gavin Salam \\
+\it Strong int.\ physics with (HL-)LHC pre-accelerator complex & Gunar Schnell \\
+\it Precision QCD physics at low energies & Klaus Kirch \\
+\it Lattice QCD: challenges and opportunities & Hartmut Wittig \\ 
+\vspace*{-3mm} & \\
+\it Theory challenges for Heavy Ion physics & Urs Wiedemann \\
+\it Heavy Ion collisions at (HL-)LHC & Johanna Stachel \\
+\it Strong interaction physics at future $eA$ colliders & \quad Nestor Armesto Perez \\
+\it Emerging facilities around the world for strong int.\ physics & Tetyana Galatyuk \\
+\it Synergies with astroparticle, nuclear and neutrino physics & Tanguy Pierog \\
+\it Strong interaction physics at future $ep$ colliders & Uta Klein \\
+\it What strong int.\ physics can one do with LHC after HL-LHC? & Daniel Boer \\ \hline 
+\end{tabular}
+\vfill \newpage
+\begin{tabular}{lr}
+\bf Title & \bf Presented by \\ \hline 
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Flavour Physics} \\
+\it Overview on Flavour Physics & Yosef Nir \\
+\it Flavour and CP searches with kaons & Marco Sozzi \\
+\it Precision prospects for the lattice input to CKM determinations & Carlos Pena Ruano \\
+\it Theoretical perspective on EDMs and the strong CP problem & Michael Dine \\
+\it The EDM hunt: neutron, charged hadrons, leptons  & Stephan Paul \\
+\vspace*{-3mm} & \\
+\it CP violation in Higgs and in gauge boson couplings & Stefania Gori \\
+\it Flavour and CP violation in the dark sectors & Jure Zupan \\
+\it Invisible channels \& long-lived particles: comparison of potential & Augusto Ceccucci \\
+\it Physics prospects with muons & Yoshikata Kuno \\
+\it Physics prospects with taus & Alberto Lusiani \\
+\it Lepton universality: $B$ and $K$ anomalies & Svetlana Fajfer \\ \hline
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Neutrino Physics \& Cosmic Messengers} \\
+\vspace*{-3mm} & \\
+\it Theories of neutrino masses and leptonic CP violation & Silvia Pascoli \\
+\it Precision determination of neutrino mass-mixing parameters & Eligio Lisi \\
+\it Prospects for measurement of neutrino mass ordering \& leptonic CPV & Mauro Mezzetto \\
+\it Measurements of Neutrino-nucleus cross sections and neutrino flux & Federico Sanchez \\
+\it Measurements of the neutrino mass & Susanne Mertens \\
+\it Prospects for the search of sterile neutrinos & Bonnie Fleming \\
+\it Prospects for the search of Heavy Neutral Leptons & Nicola Serra \\
+\vspace*{-3mm} & \\
+\it Cosmic ray physics & Andreas Haungs \\
+\it Neutrino astroparticle physics & Francis Halzen \\
+\multicolumn{2}{c}{{\it Gravitational waves} \hfill Bangalore Sathyaprakash} \\
+\it Multimessenger physics & Marek Kowalski \\ \hline
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Dark Matter and Dark Sector} \\
+\vspace*{-3mm} & \\
+\it Dark Sectors and DM Models: from ultralight to ultra heavy & Hitoshi Murayama \\
+\it Dark Matter Direct Detection Searches & Jocelyn Monroe \\
+\it Indirect DM detection overview & Christoph Weniger \\
+\it How can Direct \& Indirect DM searches guide accel.\ searches? & Mariangela Lisanti \\
+\it Theory: DM at Colliders & Matthew Mccullough \\
+\it Collider Search: DM at Colliders & Caterina Doglioni \\
+\vspace*{-3mm} & \\
+\it Ultra-light DM (ALPS) Theory and Overview & Prateek Agrawal \\
+\it ALPS: Lab searches & Axel Lindner \\
+\it ALPS: Helioscope searches & Igor Garcia Irastorza \\
+\it Dark Sector searches with Beam Dumps: Theory \& Overview & Claudia Frugiuele \\
+\it Lepton Beams: LDMX@eSPS (NA64++, AWAKE++) & Ruth Pottgen \\
+\it Proton Beams: SHIP@BDF & Elena Graverini \\
+\it General Perspective & Claude Vallee \\ \hline
+\end{tabular}
+\vfill \newpage
+\begin{tabular}{lr}
+\bf Title & \bf Presented by \\ \hline 
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Beyond the Standard Model} \\
+\vspace*{-3mm} & \\
+\it EWSB dynamics and resonances: what expect from experiments & Juan Alcaraz Maestre \\
+\it EWSB dynamics and resonances: implications for theory & Andrea Wulzer \\
+\it Supersymmetry: what we can expect from experiments & Monica D'Onofrio \\
+\it Supersymmetry: implications for theory & Andreas Weiler \\
+\it Extended Higgs sectors \& HE flavour dynamics: expected from exp. & Philipp Roloff \\
+\vspace*{-3mm} & \\
+\it Feebly interacting particles: theory landscape & Gilad Perez \\
+\it Feebly interacting particles: what we can expect from experiments & Gaia Lanfranchi \\ \hline
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Accelerator Science and Technology} \\
+\it LHC future & Lucio Rossi \\
+\it Future Circular Colliders & Michael Benedikt \\
+\it Future Linear Colliders & Steinar Stapnes \\
+\it Overview \& technological challenges of proposed Higgs Factories & Daniel Schulte \\
+\it Capability of future machines for precision Higgs physics & Maria Cepeda \\
+\vspace*{-3mm} & \\
+\it Muon collider & Daniel Schulte \\
+\it Accelerator-based Neutrino beams & Vladimir Shiltsev \\
+\it Energy efficiency of HEP infrastructures & Erk Jensen \\
+\it Current plasma acceleration projects & Edda Gschwendtner \\
+\it Challenges of plasma acceleration & Wim Leemans \\
+\it Beyond colliders & Mike Lamont \\ \hline
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Instrumentation and Computing} \\
+\vspace*{-3mm} & \\
+\it Lessons learned from past instrumentation R\&D & Didier Contardo \\
+\it Detector challenges of future HEP experiments & Lucie Linssen \\
+\it Technological synergies in inst.\ R\&D with non-HEP exp.\ \& industry & Cinzia Da Via \\
+\vspace*{-3mm} & \\
+\it Current HEP computing model & Ian Bird \\
+\it Lessons learned from development of current HEP computing model & Roger Jones \\
+\it Future challenges of HEP computing & Matthias Kasemann \\
+\it HEP computing infrastructure R\&D & Maria Girone \\
+\it HEP Computing Software R\&D & Graeme Stewart \\ \hline
+\vspace*{-3mm} & \\
+\multicolumn{2}{c}{\bf Closing plenary} \\
+\vspace*{-3mm} & \\
+\it Perspective on the European Strategy from the Americas & Young-Kee Kim \\
+\it Perspective on the European Strategy from Asia & Geoffrey Taylor \\
+\it APPEC Roadmap & Teresa Montaruli \\
+\it NUPPEC long term plan & Marek Lewitowicz \\
+\it Programmes of Large European and National Labs & Pierluigi Campana \\
+\it Overview of National Inputs to the Strategy Update & Siegfried Bethke \\
+\multicolumn{2}{c}{{\it Education, Communication and Outreach} \hfill Perrine Royole-Degieux} \\ \hline
+\end{tabular}
+\end{flushleft}
+\newpage
+\section{European Strategy Update contributions}
+There were 167 documents submitted to the European Strategy Update by the deadline of 18 December 2018, of which 7 were withdrawn (mostly due to multiple submission). The remaining 160 submissions are also available via the meeting website, and are listed below (some titles abridged to fit).  The submissions are referenced in the text of this document using the form [ID$n$], or [ID$n$-Add] for addenda which give further details of the community involved, schedule and cost (available via the website). The contributions can be accessed directly by clicking on the ID number in the list below.
+
+\begin{flushleft}
+\begin{tabular}{llr} 
+\bf ID & \bf Title & \bf Submitted by \\ \hline 
+\vspace*{-3mm} & & \\
+\href{https://indico.cern.ch/event/765096/contributions/3295508/attachments/1785100/2905996/cern.pdf}{1} & \it Searches for Sterile Neutrinos at CERN & Robert Shrock\\
+\href{https://indico.cern.ch/event/765096/contributions/3295509/attachments/1785101/2905999/Yock.pdf}{2} & \it Newtonian Test of the Standard Model & Philip Yock \\
+\href{https://indico.cern.ch/event/765096/contributions/3295511/attachments/1785103/2906003/TIARA_ES2020-contribution_final.pdf}{4} & \it TIARA contribution to the ESPPU & Roy Aleksan\\
+\href{https://indico.cern.ch/event/765096/contributions/3295512/attachments/1785106/2906008/A_European_Data_Science_Institute_for_Particle_Physics.pdf}{5} & \it A European Data Science Institute for Fundamental Physics\hspace*{1cm} & Maurizio Pierini\\
+\href{https://indico.cern.ch/event/765096/contributions/3295513/attachments/1785107/2906010/Gamma_Factory.pdf}{6} & \it Gamma Factory for CERN & Mieczyslaw Krasny \\
+\href{https://indico.cern.ch/event/765096/contributions/3295514/attachments/1785110/2906015/2018_ALEGRO_ESPP.pdf}{7} & \it Advanced LinEar collider study GROup (ALEGRO) Input & Brigitte Cros\\
+\href{https://indico.cern.ch/event/765096/contributions/3295516/attachments/1785111/2906018/European_Strategy.pdf}{8} & \it DM follies and the `Krisis' of particle physics & Francois Richard\\
+\href{https://indico.cern.ch/event/765096/contributions/3295517/attachments/1785115/2906025/na64-epps-2018.pdf}{9} & \it Prospects for exploring the Dark Sector with NA64 & Sergei Gninenko\\
+\href{https://indico.cern.ch/event/765096/contributions/3295519/attachments/1785116/2906032/main1.pdf}{11} & \it The Belle II experiment at SuperKEKB & Bostjan Golob\\
+12 & \it The SHiP experiment at the SPS Beam Dump Facility & Andrei Golutvin \\
+13 & \it Proposal from the NA61/SHINE Collaboration for the ESPPU & Marek Gazdzicki \\
+14 & \it Complex NEVOD for multi-component investigations of CR & Anatoly Petrukhin \\
+15 & \it Contribution of the French Physics Society & Yannis Karyotakis \\
+16 & \it Strategic R\&D Programme on Technologies for Future Exp. & Christian Joram \\
+17 & \it Status and perspectives of neutron time-of-flight facility n$_{\rm TOF}$ & Enrico Chiaveri \\
+18 & \it Feasibility Study for an EDM Storage Ring & Hans Stroeher \\
+19 & \it The JUNO Experiment & Marcos Dracos \\
+20 & \it PBC Conventional Beams Executive Summary & Lau Gatignon \\
+21 & \it Initial contribution of the INFN Hadron Physics Community& Mauro Taiuti \\
+22 & \it Communicating particle physics matters & P.\ Royole Degieux \\
+24 & \it The Biennial African School on Fund.\ Phys.\ \& Applications & K.\ A.\ Assamagan \\
+25 & \it Charged LFV using Intense Muon Beams at Future Facilities & Andre Schoening \\
+26 & \it Initial INFN input on the ESPPU & Fabio Zwirner \\
+27 & \it The Int.\ Axion Observatory (IAXO): case, status and plans & I.\ Garcia Irastorza \\
+28 & \it REDTOP: Rare Eta Decays with a TPC for Optical Photons & Corrado Gatto \\
+29 & \it CEPC Input to the ESPPU -- Physics and Detector & Manqi Ruan \\
+30 & \it Large-scale neutrino detectors: from INR, Russian Acad.\ of Sci. & Sergey Troitskiy \\
+31 & \it Input from the Spanish Particle Physics Community & Teresa Rodrigo \\
+33 & \it Statement by the German Particle Physics Community & Ulrich Uwer \\
+34 & \it Israeli Input to the European Strategy for Particle Physics & Gilad Perez \\
+35 & \it AWAKE: On the path to Particle Physics Applications & Allen Caldwell \\
+36 & \it Dark Sector Phys.\ with Primary e Beam Facility at CERN & Torsten Akesson \\
+37 & \it Future of Heavy Ion Physics at Colliders & Johanna Stachel \\
+38 & \it COMET& Yoshitaka Kuno \\
+39 & \it EPIC: Exploiting the Potential of ISOLDE at CERN & Gerda Neyens \\
+40 & \it Input of Nuclear Physics Section, Russian Acad.\ of Sci. & Valery Rubakov \\
+\end{tabular}
+\end{flushleft}
+\newpage
+~\\ \vspace*{-8mm}
+\begin{flushleft}
+\begin{tabular}{llr} 
+\bf ID & \bf Title & \bf Submitted by \\ \hline 
+\vspace*{-3mm} & & \\
+41 & \it Further searches of the Higgs scalar sector & Carlo Rubbia \\
+42 & \it The Physics Beyond Colliders Study at CERN & Claude Vallee \\
+43 & \it Research Plans of the Norwegian Physics Commun.\ till 2025 & Gerald Eigen \\
+44 & \it HFLAV input to the ESPPU & Ulrik Egede \\
+45 & \it Future Opportunities in Accelerator-based Neutrino Phys. & Joachim Kopp \\
+46 & \it Heavy-flavour production in heavy-ions ... at CERN and JINR  & Grigori Feofilov \\
+47 & \it Physics opportunities for fixed-target programme in ALICE & Laure Massacrier \\
+48 & \it Conclusions of Town Meeting: Relativistic Heavy Ion Coll. & Urs Wiedemann \\
+49 & \it Precision experiments at $e^+e^-$ Super Charm-Tau Factory & Vitaly Vorobyev \\
+50 & \it Particle physics applications of AWAKE acceleration scheme & Matthew Wing \\
+51 & \it CEPC Input to the ESPPU -- Accelerator & Jie Gao \\
+52 & \it Future colliders -- Linear and circular & Roman Poeschl \\
+53 & \it HEP Computing Evolution & Ian Bird \\
+54 & \it CERN's view on Knowledge Transfer as input for the ESPPU & Giovanni Anelli \\
+55 & \it Particle Physics in Finland & Katri Huitu \\
+56 & \it Ultra-relativistic Heavy-Ion Coll: Italian community input & Andrea Dainese \\
+57 & \it A high precision neutrino beam for new gen.\ of SBL exp. & Andrea Longhin \\
+58 & \it AWAKE++ ... for New Particle Physics Experiments at CERN & Edda Gschwendtner \\
+59 & \it Initial INFN input on the ESPPU: software and computing & Donatella Lucchesi \\
+60 & \it PBC technology subgroup report & Andrzej Siemko \\
+61 & \it Input to the ESPPU from the Danish community & J-J.\ Gaardhoeje \\
+62 & \it Future Dark Matter Searches with Low-Radioactivity Ar & Cristiano Galbiati \\
+63 & \it Japan's Updated Strategy for Future Projects in PP & Toshinori Mori \\
+64 & \it Gravitational Waves in the ESPPU & Michele Punturo \\
+65 & \it The JUAS and ESIPAP graduate schools & Johann Collot \\
+66 & \it The International Linear Collider; a European Perspective & J.\ Fuster Verd\'{u} \\
+67 & \it Community Support for a Fixed-Target Programme for LHC & J-P.\ Lansberg \\
+68 & \it ECFA Detector Panel Report & Doris Eckstein \\
+69 & \it Statement by the German Astroparticle Physics Community &	C.\ Weinheimer \\
+70 & \it A memorandum by the Global Neutrino Network & Uli Katz \\
+73 & \it Romanian input to the ESPPU & A.\ M.\ Bragadireanu \\
+74 & \it Electron Ion Collider Accelerator Science and Technology & Andrei Seryi \\
+75 & \it MATHUSLA & Henry Lubatti \\
+76 & \it Input from J-PARC to the ESPPU & Takeshi Komatsubara \\
+77 & \it The International Linear Collider: a Global Project & J.\ Fuster Verd\'{u} \\
+78 & \it Slovenian input to the ESPPU & Bostjan Golob \\
+79 & \it The Importance of Software and Computing to Particle Phys. & Graeme Stewart \\
+80 & \it Input of Joint Institute for Nuclear Research & Boris Sharkov \\
+81 & \it A View on the European Strategy for Particle Physics & Christian Fabjan \\
+82 & \it Submission from Univ.\ of Liverpool Exp.\ PP Group & Themis Bowcock \\
+83 & \it Ensuring the future of PP in a more sustainable world & Veronique Boisvert \\
+84 & \it APPEC Contribution to the ESPPU & Job de Kleuver \\
+85 & \it LPNHE scientific perspectives for the ESPPU & R.\ C.\ Camacho Toro \\
+86 & \it Particle Physics at PIK Reactor Complex & Vladimir Voronin \\
+87 & \it Development of Micro-Pattern Gaseous Detectors (RD51) & Maksym Titov \\
+\end{tabular}
+\end{flushleft}
+\newpage
+\begin{flushleft}
+\begin{tabular}{llr} 
+\bf ID & \bf Title & \bf Submitted by \\ \hline 
+\vspace*{-3mm} & & \\
+88 & \it Inputs to ESPPU by the Czech particle physics community & Tomas Davidek \\
+89 & \it Future strategies for ... measurement of Higgs self-coupling & Patrick Janot \\
+90 & \it Study of hard and EM processes at CERN-SPS energies ... & Gianluca Usai \\
+91 & \it Synthesis on the ELN Project by A.\ Zichichi & Horst Wenninger \\
+92 & \it Prospect of the IN2P3 Community involved in the ILC & Marc Winter \\
+93 & \it Nuclotron-based Ion Collider Facility at JINR (NICA) & D.\ Peshekhonov \\
+94 & \it FASER: ForwArd Search ExpeRiment at the LHC & J.\ Lee Feng \\
+95 & \it On the Prospect \& Vision of UH Gradient Plasma Acc.\ for HEP & Ralph Assmann \\
+96 & \it STFC input on Innovation/Technology Transfer, Knowledge Exch. & Elizabeth Bain \\
+97 & \it Input from the DARWIN collaboration to the ESPPU & Laura Baudis \\
+98 & \it The European Spallation Source neutrino Super Beam ESS$\nu$SB & Tord Ekelof \\
+99 & \it Synergies between a US-based EIC \& European PP & Daniel Boer \\
+100 & \it Precision calculations for high-energy collider processes & Thomas Gehrmann \\
+101 & \it Theory Requirements and Possibilities for the FCC-ee ... & Alain Blondel \\
+102 & \it TauFV: a fixed-target exp.\ for flavour violation in tau decays & Guy Wilkinson \\
+103 & \it The DIS and Related Subjects Strategy Document ... & Aharon Levy \\
+104 & \it Future Challenges in Particle Physics Education \& Outreach & Hans Peter Beck \\
+105 & \it An Open Lab for Development of Technical Superconductors & Julia Double \\
+106 & \it R\&D for Near Detector Systems for LBL Neutrino Experiments & Stefania Bordoni \\
+107 & \it The ILD Detector at the ILC & Ties Behnke \\
+108 & \it Research Strategy of the Austrian Particle Physics Community & Manfred Jeitler \\
+109 & \it The EuPRAXIA Research Infrastructure ... Plasma Accelerators & Ralph Assmann \\
+110 & \it A next-generation LHC heavy-ion experiment & Federico Antinori \\
+111 & \it The LHCSpin Project & Pasquale Di Nezza \\
+112 & \it A European Strategy Towards Finding Axions and Other WISPs & Axel Lindner \\
+113 & \it VMB \& Axion search using pulsed magnets & Carlo Rizzo \\
+114 & \it Monte Carlo event generators for HEP event simulation & Mike Seymour \\
+115 & \it Hadron Physics Opportunities in Europe & Frank Maas \\
+116 & \it IN2P3 contribution for the ESPPU & Patrice Verdier \\
+117 & \it Statement of the Pierre Auger Collaboration as ESPPU input & Ralph Engel \\
+118 & \it The MUonE experiment & Clara Matteuzzi \\
+119 & \it GRAND: Giant Radio Array for Neutrino Detection & Sijbrand De Jong \\
+120 & \it Muon Colliders & Nadia Pastrone \\
+121 & \it Particle Physics \& Related Topics at the Paul Scherrer Inst. & Klaus Kirch \\
+122 & \it Belgian national input to the ESPPU & Nick Van Remortel \\
+123 & \multicolumn{2}{c}{{\it Electric dipole moment community input to ESPPU} \hfill P.\ Schmidt-Wellenburg} \\
+124 & \it Neutrino Beam from Protvino to KM3NeT/ORCA & Juergen Brunner \\
+125 & \it Polish input to the ESPPU & Jan Krolikowski \\
+126 & \it Deep Underground Neutrino Experiment (DUNE) & S.\ Soldner-Rembold \\
+127 & \it Submission from the Swedish Particle Physics Community & David Milstead \\
+128 & \it Quantum Computing for High Energy Physics & Federico Carminati \\
+129 & \it SPS Beam Dump Facility & Mike Lamont \\
+130 & \it Input to the Strategy Process from LNF-INFN & Pierluigi Campana \\
+\end{tabular}
+\end{flushleft}
+\newpage
+\begin{flushleft}
+\begin{tabular}{llr} 
+\bf ID & \bf Title & \bf Submitted by \\ \hline 
+\vspace*{-3mm} & & \\
+131 & \it Enhancing the LBNF/DUNE Physics Programme & Roberto Petti \\
+132 & \it Future Circular Collider -- The Lepton Collider (FCC-ee) & Michael Benedikt \\
+133 & \it Future Circular Collider -- The Hadron Collider (FCC-hh) & Michael Benedikt \\
+134 & \multicolumn{2}{c}{{\it UK input to the ESPPU} \hfill C.\ Shepherd-Themistocleous} \\
+135 & \it Future Circular Collider -- The Integrated Program (FCC-int) & Michael Benedikt \\
+136 & \it Future Circular Collider -- The High-Energy LHC (HE-LHC) & Michael Benedikt \\
+137 & \it The Short-Baseline Neutrino Program at Fermilab & Regina A.\ Rameika \\
+138 & \it INFN National Scientific Committee for HEP with Accelerators & Nadia Pastrone \\
+139 & \it Birmingham Particle Physics Group Submission & Paul R.\ Newman \\
+140 & \it Energy frontier lepton-hadron colliders, VLQ/leptons, preons ... & Saleh Sultansoy \\
+142 & \it Swiss input for the ESPPU & Tatsuya Nakada \\
+143 & \it A New QCD Facility at the M2 beam line of the CERN SPS & Vincent Andrieux \\
+144 & \it ESPPU: Input from UK National Laboratories & Dave Newbold \\
+145 & \it The Compact Linear $e^+e^-$ Collider (CLIC): Physics Potential & Philipp Roloff \\
+146 & \it The Compact Linear $e^+e^-$ Collider (CLIC): Acc.\ and Detector & Aidan Robson \\
+147 & \it PERLE: A High Power Energy Recovery Facility for Europe & Max Klein \\
+148 & \it Nuclear physics and ESPPU & Eberhard Widmann \\
+149 & \it APS DPF: Community Planning and Science Drivers & Kate Scholberg \\
+150 & \it APS DPF: Tools for Particle Physics & Kate Scholberg \\
+151 & \it New physics searches with heavy-ion collisions at the LHC & David d'Enterria \\
+152 & \it The physics potential of HL-LHC & M.\ Mangano \\
+153 & \it KLEVER: An exp.\ to measure $K_L\rightarrow \pi^0 \nu \overline{\nu}$ at CERN SPS & Matthew Moulson \\
+154 & \it $\nu$STORM at CERN: Executive Summary & Kenneth R.\ Long \\
+155 & \it CEA-Irfu contribution to the ESPPU & A-I.\ Etienvre \\
+156 & \it The HIBEAM/NNBAR Experiment for the ESS & David A.\  Milstead \\
+157 & \it Canadian Submission to the ESPPU & Michael Roney \\
+158 & \it Opportunities in Accelerator-based Neutrino Physics in Japan & F.\ Di Lodovico \\
+159 & \it Exploring the Energy Frontier with DIS at the LHC & Max Klein \\
+160 & \it The physics potential of HE-LHC & M.\ Mangano \\
+161 & \it MAGIS-1K: a 1000m Atom Interferometer for DM \& GW & Jonathon Coleman \\
+162 & \it The Importance of Res.-Ind.\ Collab.\ for Exascale Computing & Alberto Di Meglio \\
+163 & \it QCD: Theory -- Input for the ESPPU & F.\ Hautmann \\
+164 & \it The European Spallation Source ERIC -- ESPPU input & Valentina Santoro \\
+165 & \it Initial INFN input to ESPPU -- Astroparticle Phys.\ Comm.\ 2 & Marco Pallavicini \\
+166 & \it Input from the Netherlands for the ESPPU & Stan Bentvelsen \\
+167 & \it Status of Fermilab's Neutrino Facilities & Louise Suter \\ \hline
+\end{tabular}
+\end{flushleft}
+\end{document}

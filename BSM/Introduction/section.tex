@@ -1,0 +1,29 @@
+% don't remove the folling lines, and edit the defintion of \main if needed
+\documentclass[../report.tex]{subfiles}
+\providecommand{\main}{..}
+\IfEq{\jobname}{\currfilebase}{\AtEndDocument{\biblio}}{}
+% until here
+
+%To have the commments written on the PDF: keep this macro
+\newcommand{\commentsinout}[1]{#1}
+%To have the commments hidden in the PDF: keep this macro
+%\newcommand{\commentsinout}[1]{}
+
+% this is a macro so you can make comments. See example below.
+\newcommand{\KE}[1]{\commentsinout{{\bf{\color{brown} [KE: #1]}}}} % Comments by K. Ellis
+\newcommand{\BH}[1]{\commentsinout{{\bf{\color{cyan} [BH: #1]}}}} % Comments by B. Heinemann
+\newcommand{\FM}[1]{\commentsinout{{\bf{\color{orange} [FM: #1]}}}} % Comments by F. Maltoni
+\newcommand{\AN}[1]{\commentsinout{{\bf{\color{teal} [AN: #1]}}}} % Comments by A. Nisati
+
+\begin{document}
+
+\section{Introduction}
+
+The search for physics Beyond the SM (BSM) is the main driver of the exploration programme in particle physics. The initial results from the LHC are already starting to mould the strategies and priorities of these searches and, as a result, the scope of the experimental programme is broadening. Growing emphasis is given to alternative scenarios and more unconventional experimental signatures where new physics could hide, having escaped traditional searches. This broader approach towards BSM physics also influences the projections for discoveries at future colliders. Rather than focusing only on a restricted number of theoretically motivated models, future prospects are studied with a signal-oriented strategy. In this chapter an attempt to reflect both viewpoints and to present a variety of possible searches is made. Since it is impossible (and probably not very useful) to give a comprehensive classification of all existing models for new physics, the choice is made to consider some representative cases which satisfy the following criteria: {\it (i)} they have valid theoretical motivations, {\it (ii)} their experimental signatures are characteristic of large classes of models, {\it (iii)} they allow for informative comparisons between the reach of different proposed experimental projects.
+
+In considering the physics reach of any experimental programme, there are two key questions: what new physics can be discovered and, in the absence of discoveries, what information can be extracted from the measurements. For many of the current models, any discovery will require several observations in different channels in order to characterise the nature of the phenomenon. As an example, the well-known missing energy signature arises in numerous models and, while any large excess of such events would signify a departure from the SM, a real understanding of the underlying physics will be possible only with multiple experimental studies. For this reason, the results presented in this chapter do not attempt to characterise the potential for `discovery'; instead, all results are expressed in terms of the extent to which one can be sensitive to new physics. This is quantified by the exclusion reach on some key physical parameters, such as the distance down to which the Higgs boson still behaves like a point-like particle, or of the masses of new hypothetical particles. Unless otherwise stated, all limits correspond to 95\% Confidence Level (CL) limits. 
+
+This chapter is organised as follows. In Sect.~\ref{sec:BSM-EWKNR} various signatures related to the dynamics of electroweak symmetry breaking, i.e. composite Higgs, vector resonances, contact interactions, are considered. The search for supersymmetry is the theme of Sect.~\ref{sec:BSM-SUSY}. Extensions of the Higgs sector with new scalar particles, neutral naturalness and high-energy dynamics associated with the flavour problem are presented in Sect.~\ref{sec:BSM-ExtendedScalars}. In Sect.~\ref{sec:BSM-DM} the prospect for exploring dark matter at colliders is presented. Section~\ref{sec:BSM-FIPs} is dedicated to a study of how different experimental facilities compare in the search for feebly-interacting or long-lived particles. Finally, in Sect.~\ref{sec:BSM-Conclusions} the results are summarised and put in a broader perspective.
+
+\end{document}
+

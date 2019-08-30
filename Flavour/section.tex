@@ -1,0 +1,146 @@
+% don't remove the folling lines, and edit the defintion of \main if needed
+\documentclass[../report.tex]{subfiles}
+\providecommand{\main}{..}
+\IfEq{\jobname}{\currfilebase}{\AtEndDocument{\biblio}}{}
+% until here
+
+
+\begin{document}
+\linenumbers
+% this is the extra information to be used for the general sections.
+\chapter{Flavour Physics}
+\label{chap:flav}
+
+This chapter discusses the present and future flavour quest, focusing first on the physics of the spectrum lighter than $\sim$\,GeV, and then on the heavier fermions, 
+ the heavy SM bosons, and finally the flavour-dark sector connection. The terminology short-term, mid-term and long-term will denote, respectively, present experiments, updates of the latter (e.g.\ LHCb Upgrade~II) as well as approved projects (e.g.\ Belle II, HL-LHC, Mu3e, etc.), and future facilities under discussion.  
+
+\section{Introduction/Theory of Flavour}
+That fundamental forces arise as gauge interactions is experimentally an extremely successful prediction of the
+Standard Model (SM) of particle physics. 
+In contrast, within the SM 
+a deep understanding of the rationale for the Higgs couplings and the flavour structure remains to be achieved.  There is a striking difference between the simplicity of the gauge sector, described by just three gauge couplings, and the complicated structure of the rest of the SM with over twenty Higgs related parameters describing the SM flavour structure. This  suggests that flavour physics
+is  a unique portal to 
+a more fundamental organizing principle. 
+
+
+Further fundamental questions emerge when attempts are made to 
+couple the SM and gravity. The quantization of the latter remains a crucial open question. In addition, the data 
+ point towards a universe that cannot be understood solely in terms of the SM and gravity. 
+There is strong evidence  for the existence of new particles and {\it new \underline{particle} physics} (NP): 
+\begin{itemize}
+    \item {\it Experimental evidence} which remains unexplained within the SM laws, to wit 
+    \begin{enumerate}
+        \item {\it Dark matter}, whose nature is unknown, and the mass range of possible dark matter candidates spanning across over eighty orders of magnitude. 
+        \item {\it Neutrino masses}. The SM gauge group allows for Majorana neutrino masses, justifying their suppressed values, but the size of the putative Majorana
+ scale is unknown.
+        \item The observed {\it matter-antimatter asymmetry} of the Universe. 
+    \end{enumerate}
+    
+   \vspace{0.2cm}
+    
+    \item {\it Strong tensions and fine-tunings within the SM}, such as   
+    \begin{enumerate}
+        \item {\it The electroweak (EW) hierarchy problem}. ``Why is the Higgs so light?''  when its mass is {\it a priori} sensitive through quantum corrections to any putative high scale.  What stabilizes  the Higgs vacuum expectation value? 
+        \item {\it The strong CP problem}, that defines the QCD vaccuum.  Why is its $\theta$ parameter experimentally constrained to be extremely small? For {\it a priori} no good reason.
+        \item {\it The flavour puzzle}. Why are there three generations of quarks and leptons? What accounts for the very different masses and mixings? What fixes the  
+        size of CP-violation, largely insufficient to explain the observed dominance of matter over anti-matter?
+    \end{enumerate}
+     The flavour puzzle, in particular, feeds into the first two tensions. For instance, within the SM the top loop gives the main contribution to the EW hierarchy problem, while the strong CP problem is an issue only in as much as all the quarks have non-zero masses. Furthermore, many NP models designed to solve the EW hierarchy problem tend to worsen the strong CP problem and generate unacceptably large contributions to electric dipole moments (EDMs), 
+    as a consequence
+    of the presence of CP-violation in  non-chiral flavour changing couplings.  
+      All three tensions in their core amount 
+ to the question of why certain parameters are very small. 
+ In natural theories small numbers are explained by  symmetries or dynamical assumptions, suggesting that the SM needs to be extended in order to become a natural theory. 
+      \end{itemize} 
+    
+     The underlying nature of CP violation, which is at the heart of many open questions,
+     deserves  
+     special mention. On the one hand, the  combination of the discrete symmetries C, P and T is essential to the formulation of quantum field theory itself. On the other hand, CP violation  is at the backbone of the SM three-family flavour puzzle and of the strong CP problem. In addition,  it 
+     is also an essential ingredient to generate the observed baryon asymmetry (assuming baryogenesis). From a 
+     practical perspective, it is one of the main driving forces behind the present experimental efforts, especially in the neutrino sector. Finally,  dark matter itself may have flavour structure,   and 
+     a true understanding of flavour would then require an interdisciplinary exploration. As a side benefit,  
+      the present and planned flavour experiments  are  often, without special requirements, 
+      sensitive to light dark matter candidates such as feebly interacting particles.
+ 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.90\textwidth, angle=0]{\main/Flavour/figs/Sensitivity_plot_J_style}
+\end{center}
+\caption{Reach in new physics scale of present and future facilities, from generic dimension six operators. Colour coding of observables is: green for mesons, blue for leptons, yellow for EDMs, red for Higgs flavoured couplings and purple for the top quark. The grey columns illustrate the reach of direct flavour-blind searches and EW precision measurements.
+The operator coefficients are taken to be either $\sim 1$ (plain coloured columns)
+or suppressed by MFV factors (hatch filled surfaces). Light (dark) colours correspond to present data (mid-term prospects).
+}\label{fig:NPscales}
+\end{figure}
+  
+The progress in understanding the above fundamental questions can be made through a variety of tools: directly by  increasing the energy at which  the world of fundamental particles and forces is explored, or indirectly by making precise measurements of rare or even SM forbidden processes, relying on quantum mechanical effects to probe shorter distances or effectively higher energies.  
+The expected experimental progress, especially with regards to the indirect probes,  can be  neatly encoded in the model-independent tool of effective Lagrangians. As long as the NP particles are heavier than the energy released in a given experiment, their impact can be included via effective operators of increasing mass dimensions, constructed from the SM fields. The resulting effective field theory (SM-EFT) has the following form: 
+\begin{equation}
+    \mathcal{L}_{\text{eff}}= \mathcal{L}_{\text{SM}} + \frac{C_5}{\Lambda_M}\mathcal{O}^{(5)} +  \sum_a \frac{C_{6}^{a}}{\Lambda^2}\mathcal{O}^{(6)}_{a}+\cdots \,. 
+    \label{effective}
+\end{equation}
+The dimension five ($d=5$) operator $\mathcal{O}^{(5)}$  
+breaks lepton number and, if present, induces Majorana neutrino masses of order  $v^2/\Lambda_M$, where  $\Lambda_M$ is assumed to be 
+much larger than the electroweak (EW) scale $v$. The $d=6$ operators ${O}^{(6)}_{a}$  
+encode the effects of  
+NP particles of generic mass $\Lambda$. 
+Experiments probe the ratios $C^a / \Lambda^2$. 
+
+For a qualitative appraisal, Fig.~\ref{fig:NPscales} illustrates the scales probed  by the present flavour  experiments (light colours), assuming  $C_6^a\sim {\mathcal O}(1)$~\cite{Nir_Private}. This can be compared with the reach of direct high-energy searches and EW precision tests (in grey), illustrated  by using flavour-blind operators that have the optimal reach~\cite{Nir_Private}: the gluon-Higgs operator and the oblique parameters for EW precision tests, respectively.  The shown effective energy reach of flavour experiments do have several caveats. First of all, in many realistic theories either the coupling constants are  smaller than unity and/or the symmetries suppress the sizes of the coefficients.  This effect is illustrated by including in the quark sector the present bounds in tree level NP with Minimal Flavour Violation (MFV) pattern of couplings (hatch filled areas)~\cite{Chivukula:1987py,Buras:2000dm,DAmbrosio:2002vsn,Cirigliano:2005ck}. Furthermore, there could be cancellations among several higher-dimension operators. In addition, for theories in which the new physics contributes as an insertion inside a one-loop diagram mediated by SM particles,  
+all the shown scales should be further reduced by extra
+GIM-mass suppressions and/or
+a factor $\alpha /4\pi \sim10^{-3}$ 
+(where $\alpha$ denotes the generic gauge structure constants).
+
+Finally and importantly, the  new physics scale behind the flavour paradigm may differ from the  electroweak new physics scale.  Despite these caveats, Fig.~\ref{fig:NPscales} does illustrate the unique power of flavour physics to probe NP.
+ The next generation of precision particle physics experiments will probe significantly higher effective NP scales, as discussed in more detail below. 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+
+ 
+ 
+
+\section {Light sector: spectrum below GeV (short-, mid- and long-term)}
+\subsection{Electric dipole moments ($n$, $p$, charged leptons, atoms)}
+\input{Flavour/edm.th.tex}
+\input{Flavour/edm.exp.tex}
+\subsection{$\mu \to e$ transitions: short-, mid- and long-term}
+\input{Flavour/mue2.tex}
+\subsection{Kaons: short-, mid- and long-term}
+\input{Flavour/kaon3.tex}
+
+\section{Heavy sector (short-, mid- and long-term)}
+ Due to their larger masses, the heavy fermions might offer a privileged  handle on the Higgs couplings and on the origin of the flavour puzzle. The flavour quest in the beauty, charm and tau sectors is discussed first, followed by that for the top and gauge bosons. 
+\subsection{Charm and beauty: short-, mid- and long-term}
+\input{Flavour/CharmBeauty.tex}
+\subsection{$\tau$ lepton: short-, mid- and long-term}
+\input{Flavour/tau3.tex}
+\subsection{The Higgs, top quark, gauge bosons (short-, mid- and long-term)}
+\input{Flavour/Higgs.tex}
+
+\section{Flavour and dark sectors (short-, mid- and long-term)}
+\input{Flavour/dark.tex}
+
+\section{The CKM matrix elements: prospects}\label{sec:CKM}
+\input{Flavour/CKM_prospects.tex}
+\section{Conclusions}
+\input{Flavour/conclusions.tex}
+
+\end{document}
+
